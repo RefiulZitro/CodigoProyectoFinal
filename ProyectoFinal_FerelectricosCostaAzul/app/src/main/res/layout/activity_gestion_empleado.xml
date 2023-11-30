@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#FFEB3B"
+tools:context=".GestionEmpleado">
+
+    <ImageButton
+        android:id="@+id/empleadoButton2"
+        android:layout_width="149dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="96dp"
+        android:contentDescription="empleado"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empleadoTextView"
+        app:srcCompat="@drawable/empleado" />
+
+    <TextView
+        android:id="@+id/empleadosTextView3"
+        android:layout_width="158dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="8dp"
+        android:text="Listado de Empleados"
+        android:textColor="#3F51B5"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/empleadosImageView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+    android:id="@+id/imageView"
+    android:layout_width="185dp"
+    android:layout_height="175dp"
+    android:layout_marginStart="103dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="123dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/logo" />
+
+<TextView
+    android:id="@+id/administradorTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="171dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="182dp"
+    android:text="Administrador"
+    android:textColor="#3F51B5"
+    android:textSize="30dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.416"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+<ImageView
+    android:id="@+id/administradorImageView"
+    android:layout_width="144dp"
+    android:layout_height="124dp"
+    android:layout_marginStart="133dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="134dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/administradorTextView"
+    app:srcCompat="@drawable/user_admin" />
+
+<TextView
+    android:id="@+id/administradornombreTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="177dp"
+    android:layout_marginTop="9dp"
+    android:layout_marginEnd="176dp"
+    android:text="Isabel Sofia Becerra"
+    android:textColor="#3F51B5"
+    android:textSize="25dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/administradorImageView" />
+
+    <ImageView
+        android:id="@+id/empleadosImageView"
+        android:layout_width="127dp"
+        android:layout_height="109dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/admin_empleados" />
+
+    <TextView
+        android:id="@+id/empleadosTextView"
+        android:layout_width="158dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="4dp"
+        android:text="Añadir Empleado"
+        android:textColor="#3F51B5"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/empleadosImageView"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FerrelectricosCostaAzul"
+        tools:targetApi="34">
+        <activity
+            android:name=".CarritoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarEmpleado"
+            android:exported="false" />
+        <activity
+            android:name=".ListadoEmpleados"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarEmpleado"
+            android:exported="false" />
+        <activity
+            android:name=".GestionEmpleado"
+            android:exported="false" />
+        <activity
+            android:name=".VerProductoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ModifcarProductoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AgregarProductoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TipoUsuarioActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginEmpleadoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginAdministradorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ComprasClienteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MenuAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MenuEmpleadoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SelectTipoUsuarioActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ForgoPassword"
+            android:exported="true" />
+        <activity
+            android:name=".SingUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
